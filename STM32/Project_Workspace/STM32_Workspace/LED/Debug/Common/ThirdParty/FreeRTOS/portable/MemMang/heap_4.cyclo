@@ -1,0 +1,9 @@
+/home/dhawal/STM32_RTOS/Project_Workspace/STM32_Workspace/Common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:138:8:pvPortMalloc	14
+/home/dhawal/STM32_RTOS/Project_Workspace/STM32_Workspace/Common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:289:6:vPortFree	6
+/home/dhawal/STM32_RTOS/Project_Workspace/STM32_Workspace/Common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:342:8:xPortGetFreeHeapSize	1
+/home/dhawal/STM32_RTOS/Project_Workspace/STM32_Workspace/Common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:348:8:xPortGetMinimumEverFreeHeapSize	1
+/home/dhawal/STM32_RTOS/Project_Workspace/STM32_Workspace/Common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:354:6:vPortInitialiseBlocks	1
+/home/dhawal/STM32_RTOS/Project_Workspace/STM32_Workspace/Common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:360:8:pvPortCalloc	5
+/home/dhawal/STM32_RTOS/Project_Workspace/STM32_Workspace/Common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:379:13:prvHeapInit	2
+/home/dhawal/STM32_RTOS/Project_Workspace/STM32_Workspace/Common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:424:13:prvInsertBlockIntoFreeList	6
+/home/dhawal/STM32_RTOS/Project_Workspace/STM32_Workspace/Common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:487:6:vPortGetHeapStats	5
