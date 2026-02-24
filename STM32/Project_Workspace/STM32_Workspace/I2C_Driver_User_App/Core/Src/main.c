@@ -484,7 +484,7 @@ void WriteBytesOnI2C(uint8_t ADDRESS, uint8_t *data, uint8_t NoOfBytes, uint8_t 
 	uint8_t i = 0;
 	vStartI2C();
 //	I2CDelay();
-	if(WriteI2C(ADDRESS << 1) != 0)
+	if(WriteI2C(ADDRESS << 1) != 0) // Write mode config
 	{
 		printf("Write successfully\n");
 		//HAL_GPIO_WritePin(GPIOD, LED_ORANGE_PIN, GPIO_PIN_SET);
@@ -548,7 +548,7 @@ static void I2CTask_handler(void *Data) {
 //	}
 //	HAL_Delay(80);
 
-	uint8_t data[] = {0xAC, 0x33, 0x00};
+	uint8_t data[] = {0xAC, 0x33, 0x00}; // Writing Measurment Command
 	uint8_t Status = 0;
 	WriteBytesOnI2C(SLAVE_ADDRESS, data, 3, &Status);
 	if(Status == 0)
@@ -563,7 +563,7 @@ static void I2CTask_handler(void *Data) {
 
 		//Read Data
 		vStartI2C();
-		printf("Write address: %x\n", ((0x38 << 1) | 1));
+		printf("Write address: %x\n", ((0x38 << 1) | 1)); // Read mode config
 
 		if(WriteI2C((0x38 << 1) | 1) != 0) {
 //			printf("Write successfully\n");
